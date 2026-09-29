@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DrawWise – Number Insights &amp; Picks</title>
+  <meta name="description" content="DrawWise is an independent entertainment and statistical number-analysis app for generating number combinations and exploring historical number trends.">
+  <meta name="theme-color" content="#07111F">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DrawWise">
+  <meta property="og:title" content="DrawWise – Number Insights &amp; Picks">
+  <meta property="og:description" content="DrawWise is an independent entertainment and statistical number-analysis app for generating number combinations and exploring historical number trends.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="DrawWise home">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <rect width="64" height="64" rx="14" fill="#0F1B33"/>
+          <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#7CFF6B" stroke-opacity="0.5" stroke-width="3"/>
+          <rect x="13" y="34" width="8" height="17" rx="2" fill="#7CFF6B" fill-opacity="0.55"/>
+          <rect x="24" y="24" width="8" height="27" rx="2" fill="#7CFF6B" fill-opacity="0.8"/>
+          <rect x="35" y="30" width="8" height="21" rx="2" fill="#7CFF6B" fill-opacity="0.65"/>
+          <rect x="46" y="14" width="8" height="37" rx="2" fill="#7CFF6B"/>
+        </svg>
+        <span>Draw<span class="brand-accent">Wise</span></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="visually-hidden">Menu</span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
+          <li><a class="nav-link" href="support.html">Support</a></li>
+          <li><a class="nav-link" href="privacy.html">Privacy</a></li>
+          <li><a class="nav-link" href="terms.html">Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Number exploration app for iOS</p>
+          <h1 id="hero-title" class="hero-title">Draw<span class="text-accent">Wise</span></h1>
+          <p class="hero-subtitle">Smarter ways to explore numbers.</p>
+          <p class="hero-text">
+            Generate number combinations, explore draw information, and discover historical number
+            trends through a simple and engaging experience.
+          </p>
+          <div class="hero-actions">
+            <!-- REPLACE WITH APP STORE LINK AFTER RELEASE:
+                 swap this button for
+                 <a class="btn btn-primary" href="https://apps.apple.com/app/idYOUR_APP_ID">Download on the App Store</a> -->
+            <button class="btn btn-store" type="button" disabled>App Store — Coming Soon</button>
+            <a class="btn btn-primary" href="#explore">Learn More</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="console">
+            <div class="console-head">
+              <span class="console-status">Trend view</span>
+              <span>Historical data</span>
+            </div>
+            <div class="console-bars">
+              <span style="--h: 42%"></span>
+              <span style="--h: 68%"></span>
+              <span style="--h: 35%"></span>
+              <span style="--h: 80%"></span>
+              <span style="--h: 55%"></span>
+              <span style="--h: 72%"></span>
+              <span style="--h: 28%"></span>
+              <span style="--h: 60%"></span>
+              <span style="--h: 88%"></span>
+              <span style="--h: 46%"></span>
+              <span style="--h: 64%"></span>
+              <span style="--h: 38%"></span>
+            </div>
+            <div class="console-meta">
+              <div class="console-stat">
+                <span class="console-stat-label">Pick modes</span>
+                <span class="console-stat-value">Multiple</span>
+              </div>
+              <div class="console-stat">
+                <span class="console-stat-label">Data</span>
+                <span class="console-stat-value">History</span>
+              </div>
+              <div class="console-stat">
+                <span class="console-stat-label">View</span>
+                <span class="console-stat-value">Trends</span>
+              </div>
+            </div>
+            <p class="console-foot">Illustrative preview · Not a prediction</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="explore" class="section" aria-labelledby="explore-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-kicker">Features</p>
+          <h2 id="explore-title" class="section-title">Explore DrawWise</h2>
+          <p class="section-lead">
+            Tools for generating number combinations and exploring historical number information,
+            designed for curiosity and entertainment.
+          </p>
+        </div>
+
+        <ul class="card-grid" role="list">
+          <li class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 3h5v5"/>
+                <path d="M4 20 21 3"/>
+                <path d="M21 16v5h-5"/>
+                <path d="m15 15 6 6"/>
+                <path d="m4 4 5 5"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Number Picks</h3>
+            <p class="card-text">
+              Generate number combinations using multiple pick modes designed to offer different ways
+              to explore numbers.
+            </p>
+          </li>
+
+          <li class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2"/>
+                <path d="M16 2v4"/>
+                <path d="M8 2v4"/>
+                <path d="M3 10h18"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Draw Information</h3>
+            <p class="card-text">Review selected draw information and explore historical results.</p>
+          </li>
+
+          <li class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18"/>
+                <path d="M7 16v-4"/>
+                <path d="M12 16V8"/>
+                <path d="M17 16v-7"/>
+              </svg>
+            </div>
+            <h3 class="card-title">Statistical Insights</h3>
+            <p class="card-text">
+              Explore number frequency, historical trends, and additional statistical insights with
+              DrawWise Premium.
+            </p>
+          </li>
+
+          <li class="card card--premium">
+            <span class="card-badge">Optional</span>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+            </div>
+            <h3 class="card-title">DrawWise Premium</h3>
+            <p class="card-text">
+              Unlock advanced statistical features and enjoy an ad-free experience with an optional
+              subscription.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="notice-title">
+      <div class="container">
+        <div class="notice">
+          <div class="notice-head">
+            <span class="notice-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 16v-4"/>
+                <path d="M12 8h.01"/>
+              </svg>
+            </span>
+            <h2 id="notice-title" class="notice-title">Entertainment, Not Prediction</h2>
+          </div>
+          <div class="notice-body">
+            <p>
+              DrawWise uses historical information and number-generation tools for informational and
+              entertainment purposes only.
+            </p>
+            <p>
+              Historical frequency, trends, generated combinations, and other statistical information
+              do not predict future lottery results and do not increase or guarantee the likelihood of
+              winning.
+            </p>
+            <p>
+              DrawWise does not sell lottery tickets, accept wagers, process gambling transactions, or
+              provide cash or monetary prizes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="help-title">
+      <div class="container">
+        <div class="cta">
+          <h2 id="help-title" class="cta-title">Need help?</h2>
+          <p class="cta-text">Visit <a href="support.html">DrawWise Support</a>.</p>
+          <a class="btn btn-secondary" href="support.html">Go to Support</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+            <rect width="64" height="64" rx="14" fill="#0F1B33"/>
+            <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#7CFF6B" stroke-opacity="0.5" stroke-width="3"/>
+            <rect x="13" y="34" width="8" height="17" rx="2" fill="#7CFF6B" fill-opacity="0.55"/>
+            <rect x="24" y="24" width="8" height="27" rx="2" fill="#7CFF6B" fill-opacity="0.8"/>
+            <rect x="35" y="30" width="8" height="21" rx="2" fill="#7CFF6B" fill-opacity="0.65"/>
+            <rect x="46" y="14" width="8" height="37" rx="2" fill="#7CFF6B"/>
+          </svg>
+          DrawWise
+        </p>
+        <p class="footer-tagline">Independent entertainment and statistical analysis application.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="support.html">Support</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p class="footer-disclaimer">
+        DrawWise is an independent application and is not affiliated with, sponsored by, endorsed by,
+        or operated by any lottery corporation, government lottery authority, or lottery retailer.
+      </p>
+      <p class="footer-copy">&copy; 2026 Hyungyu An. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
