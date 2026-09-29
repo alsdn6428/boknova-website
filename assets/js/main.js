@@ -1,4 +1,4 @@
-/* DrawWise — mobile navigation toggle (the site works without this script). */
+/* BokNova — mobile navigation toggle (the site works without this script). */
 (function () {
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.getElementById('site-nav');

@@ -1,6 +1,6 @@
-# DrawWise Website
+# BokNova Website
 
-Static marketing, support, privacy, and terms site for the DrawWise iOS app.
+Static marketing, support, privacy, and terms site for the BokNova iOS app.
 Plain HTML, CSS, and a small amount of JavaScript. No build step, no npm, no backend.
 
 ## Files
@@ -24,7 +24,7 @@ Search the HTML for `REPLACE`, `UPDATE`, and `VERIFY` comments.
 
 | What | Where | How |
 | --- | --- | --- |
-| Support email `support@drawwise.app` | All pages | Find and replace `support@drawwise.app` across the folder (updates both `mailto:` links and visible text). |
+| Support email `support@boknova.app` | All pages | Find and replace `support@boknova.app` across the folder (updates both `mailto:` links and visible text). |
 | App Store button | `index.html` hero | After release, replace the disabled "App Store — Coming Soon" button with a link to your App Store page (example in the comment). |
 | Effective dates | `privacy.html`, `terms.html` | Update the `<time>` text and `datetime` attribute when the documents change. |
 | Analytics and service providers | `privacy.html` sections 5 and 7 | Name the analytics, crash-reporting, hosting, and database providers the app actually uses. |
@@ -46,11 +46,11 @@ Then visit <http://localhost:8000>.
 
 ### Option A: dedicated repository (simplest)
 
-1. Create a new GitHub repository, for example `drawwise-website`.
+1. Create a new GitHub repository, for example `boknova-website`.
 2. Copy the **contents** of this `website/` folder to the root of that repository (including the hidden `.nojekyll` file) and push.
 3. In the repository, open **Settings → Pages**.
 4. Under **Build and deployment**, choose **Source: Deploy from a branch**, branch `main`, folder `/ (root)`, then **Save**.
-5. After a minute the site is live at `https://<username>.github.io/drawwise-website/`.
+5. After a minute the site is live at `https://<username>.github.io/boknova-website/`.
 
 ### Option B: inside this app repository
 
@@ -59,7 +59,7 @@ Rename or copy this folder to `docs/`, push, then in **Settings → Pages** choo
 
 ### Custom domain (optional)
 
-1. In **Settings → Pages → Custom domain**, enter your domain (for example `drawwise.app`) and save. GitHub adds a `CNAME` file.
+1. In **Settings → Pages → Custom domain**, enter your domain (for example `boknova.app`) and save. GitHub adds a `CNAME` file.
 2. At your DNS provider, add the records GitHub shows (a `CNAME` to `<username>.github.io` for a subdomain, or GitHub's `A` records for an apex domain).
 3. Enable **Enforce HTTPS** once the certificate is issued.
 
