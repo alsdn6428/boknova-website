@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T20:16:16.581Z",
+  "generatedAt": "2026-11-24T02:44:26.916Z",
   "totalDraws": 1289,
   "latestDate": "2026-11-20",
   "latestNumbers": [
@@ -17,10 +17,10 @@
     "url": "https://lottizen.com/"
   },
   "merge": {
-    "added": 1,
+    "added": 0,
     "skippedSame": 2,
     "conflicts": 0,
     "rejected": [],
-    "changed": true
+    "changed": false
   }
 }
