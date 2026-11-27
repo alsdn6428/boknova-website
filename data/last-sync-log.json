@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-27T20:29:36.289Z",
+  "at": "2026-11-27T20:34:35.553Z",
   "seedOnly": false,
   "beforeCount": 1290,
   "afterCount": 1290,
@@ -12,5 +12,9 @@
     "playNowFetched": 0,
     "lottizenUsed": true,
     "lottizenSkipped": false
+  },
+  "communityScore": {
+    "skipped": true,
+    "applied": 0
   }
 }
