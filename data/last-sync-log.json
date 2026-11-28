@@ -1,15 +1,15 @@
 {
-  "at": "2026-11-27T23:43:02.808Z",
+  "at": "2026-11-28T11:53:01.102Z",
   "seedOnly": false,
   "beforeCount": 1290,
-  "afterCount": 1290,
-  "latestDate": "2026-11-24",
-  "added": 0,
+  "afterCount": 1291,
+  "latestDate": "2026-11-27",
+  "added": 1,
   "conflicts": 0,
   "rejected": [],
   "missingSample": [],
   "sources": {
-    "playNowFetched": 0,
+    "playNowFetched": 1,
     "lottizenUsed": true,
     "lottizenSkipped": false
   },

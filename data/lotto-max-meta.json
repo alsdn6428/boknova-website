@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-11-27T23:43:01.025Z",
-  "totalDraws": 1290,
-  "latestDate": "2026-11-24",
+  "generatedAt": "2026-11-28T11:52:59.265Z",
+  "totalDraws": 1291,
+  "latestDate": "2026-11-27",
   "latestNumbers": [
+    5,
+    9,
     10,
-    11,
-    13,
-    17,
     20,
-    29,
-    39
+    25,
+    34,
+    45
   ],
-  "latestBonus": 19,
+  "latestBonus": 32,
   "attribution": {
     "text": "Draw data via PlayNow (BCLC) with Lottizen fallback",
     "url": "https://www.playnow.com/"
   },
   "sources": {
-    "playNowFetched": 0,
+    "playNowFetched": 1,
     "lottizenUsed": true,
     "lottizenSkipped": false
   },
   "merge": {
-    "added": 0,
-    "skippedSame": 2,
+    "added": 1,
+    "skippedSame": 3,
     "conflicts": 0,
     "rejected": [],
-    "changed": false
+    "changed": true
   }
 }
